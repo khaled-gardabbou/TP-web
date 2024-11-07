@@ -1,0 +1,24 @@
+<!-- app.component.html -->
+<app-left-menu></app-left-menu>
+<app-header></app-header>
+<!-- <header>
+  <h1>Bienvenue sur notre site de Pâtisserie</h1>
+  <nav>
+    <a routerLink="/index" routerLinkActive="active">Accueil</a>
+    <a routerLink="/cheesecake" routerLinkActive="active">Cheesecakes</a>
+    <a routerLink="/pies" routerLinkActive="active">Tartes</a>
+    <a routerLink="/tousdetails" routerLinkActive="active">Tous les détails</a>
+  </nav>
+</header> -->
+
+<!-- Router Outlet va injecter le composant actif ici -->
+<main>
+  <router-outlet></router-outlet>
+  
+</main>
+
+<footer>
+  
+  <p>Copyright &copy; 2024 - Pâtisserie Gourmande</p>
+</footer>
+

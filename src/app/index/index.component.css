@@ -1,0 +1,54 @@
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e4d9;
+    background-image: url('/assets/pattern.png');
+    
+}
+
+#mainheader {
+    background-color: #9c93c2;
+}
+
+nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+}
+
+.searchbox {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+}
+
+figure {
+    display: block;
+}
+
+h1 {
+    font-size: 35px;
+    color: #a593c2;
+}
+
+#promos img {
+    width: 500px;
+    height: 300px;
+}
+
+button {
+    margin-top: 10px;
+}
